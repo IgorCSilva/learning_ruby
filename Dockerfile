@@ -5,14 +5,14 @@ FROM ruby:3.3.1
 WORKDIR /app
 
 # Copy the Gemfile and Gemfile.lock into the container
-COPY Gemfile* *.gemspec ./
-# COPY . .
+# COPY Gemfile* *.gemspec ./
+COPY . .
 
 # Install dependencies using Bundler
 RUN bundle install
 
 # Copy the rest of the application code into the container
-COPY . .
+# COPY . .
 
 # Keeps the container available.
 CMD ["tail", "-f", "/dev/null"]
