@@ -4,3 +4,6 @@
 [submodule "simple_ruby"]
 	path = simple_ruby
 	url = https://github.com/IgorCSilva/simple_ruby
+[submodule "ruby_rabbitmq"]
+	path = ruby_rabbitmq
+	url = https://github.com/IgorCSilva/ruby_rabbitmq
