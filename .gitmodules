@@ -1,3 +1,6 @@
 [submodule "rails_active_admin"]
 	path = rails_active_admin
 	url = https://github.com/IgorCSilva/rails_active_admin
+[submodule "simple_ruby"]
+	path = simple_ruby
+	url = https://github.com/IgorCSilva/simple_ruby
