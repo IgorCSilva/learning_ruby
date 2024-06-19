@@ -7,3 +7,6 @@
 [submodule "ruby_rabbitmq"]
 	path = ruby_rabbitmq
 	url = https://github.com/IgorCSilva/ruby_rabbitmq
+[submodule "rails_devise"]
+	path = rails_devise
+	url = https://github.com/IgorCSilva/rails_devise
